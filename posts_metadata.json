@@ -11,7 +11,7 @@
 		"started": "2023-04-01",
 		"desc": "How long will people look at a loading wheel before giving up?",
 		"image": "/random/survey_2023/loading.gif",
-		"ext_links": ["https://github.com/HDrizzle/survey"]
+		"ext_links": ["https://github.com/emperor-hadrian/survey"]
 	},
 	"working_at_second_story.html": {
 		"name": "Working at Second Story Builders, LLC",
@@ -50,7 +50,7 @@
 		"tags": ["simulation", "programming", "project", "rust"],
 		"started": "2022",
 		"image": "/images/evolution_sim.png",
-		"ext_links": ["https://github.com/HDrizzle/evolution_model"]
+		"ext_links": ["https://github.com/emperor-hadrian/evolution_model"]
 	},
 	"coil_gun.html": {
 		"name": "Capacitor Bank Coil Gun",
@@ -69,7 +69,7 @@
 		"tags": ["cycling", "electronics", "project"],
 		"started": "2026-08-03",
 		"desc": "Bike Tachometer and live gap calculator for Mt Washington Race, using an Arduino",
-		"ext_links": ["https://github.com/HDrizzle/diy_bike_tech/tree/main/bike_kom_tach"],
+		"ext_links": ["https://github.com/emperor-hadrian/diy_bike_tech/tree/main/bike_kom_tach"],
 		"image": "/images/bike_stuff/mwarbh_2026_kom_timer.jpeg"
 	},
 	"bike_bags.html": {
@@ -91,7 +91,7 @@
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2024-03-11",
 		"image": "/images/computer_v1/computer_v1_completed_back.jpeg",
-		"ext_links": ["/posts/computer_v1_presentation_2025.pdf", "https://github.com/HDrizzle/stack_machine/blob/main/version_1/README_old_v1.md", "https://youtu.be/dbShJQgQNQc?si=lIAp6x72Wxj-_1Vb"],
+		"ext_links": ["/posts/computer_v1_presentation_2025.pdf", "https://github.com/emperor-hadrian/stack_machine/blob/main/version_1/README_old_v1.md", "https://youtu.be/dbShJQgQNQc?si=lIAp6x72Wxj-_1Vb"],
 		"desc": "An 8-bit stack-based computer processor designed to support programming in Reverse Polish Notation (RPN). I got the idea for this from my 1989 HP 48SX calculator which also uses RPN. It has: 64k of heap memory, 64k x 16 bit instruction flash, a 32 x 32 display, a hardware call stack, and basic binary operations."
 	},
 	"computer_v2.html": {
@@ -99,7 +99,7 @@
 		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
 		"started": "2026-01-23",
 		"desc": "A fully backwards-compatible version of my first computer, this design has much better performance and more features. I have not started building it yet because of the cost, however I have a working simulation.",
-		"ext_links": ["https://github.com/HDrizzle/stack_machine"],
+		"ext_links": ["https://github.com/emperor-hadrian/stack_machine"],
 		"image": "/images/computer_v2/computer_v2_fibonacci.webp"
 	},
 	"rusty_logic.html": {
@@ -107,7 +107,7 @@
 		"tags": ["digital-logic", "project", "rust", "programming", "simulation", "showcase"],
 		"started": "2025-06-11",
 		"image": "/images/rusty_logic_example_scrot.png",
-		"ext_links": ["https://github.com/HDrizzle/rusty_logic_core"],
+		"ext_links": ["https://github.com/emperor-hadrian/rusty_logic_core"],
 		"desc": "I was inspired to create this program after making a crude logic simulator/animator in TS for MotionCanvas for my DIY computer presentation. It is written in Rust and is the program I used to design the 2nd version of my computer."
 	},
 	"amateur_radio.html": {
@@ -136,7 +136,7 @@
 		"tags": ["programming", "simulation", "physics", "python", "project"],
 		"started": "2021",
 		"desc": "Started spring of 2021 while in 8th grade, I had to figure out alot of physics and networking concepts to make my first multiplayer game work smoothly",
-		"ext_links": ["https://github.com/HDrizzle/sailboat_simulator_python"],
+		"ext_links": ["https://github.com/emperor-hadrian/sailboat_simulator_python"],
 		"image": "/images/sailboat_simulator_simple_scrot.png"
 	},
 	"tower_and_anemometer.html": {
