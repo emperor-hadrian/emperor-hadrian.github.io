@@ -13,7 +13,6 @@
 		<div>
 			<div class="img-container">
 				<img src="/images/computer_v1/computer_v1_completed_back.jpeg" />
-				<img src="/images/computer_v1/boards_layed_out.jpeg" />
 			</div>
 			<h2>Fantasy</h2>
 			<p>
@@ -30,6 +29,9 @@
 				I read alot of the book and got some ideas from it which I don't remember exactly. I realized that I would need to create timing diagrams to describe how all the pieces communicated with eachother.
 			</p>
 			<h2>Basic architecture</h2>
+			<div class="img-container">
+				<img src="/images/computer_v1/main_block_diagram.png" />
+			</div>
 			<p>
 				Before I did anything else I needed a rough block diagram and the instruction format. I settled on a the block diagram shown below which used 16-bit instructions and 8-bit data words. The data and program memories are seperated which resembles Harvard architecture.
 				All data is moved around on the 8-bit bus between the memory, ALU, IO, etc.
@@ -40,6 +42,19 @@
 				<li><a target="_blank" href="https://circuitverse.org/">Circuitverse</a>, a digital circuit simulator, which I later based my own program <a target="_blank" href="/posts/rusty_logic.html">Rusty Logic</a> on.</li>
 				<li><a target="_blank" href="https://www.kicad.org/">KiCad</a>, Schematic and PCB software.</li>
 			</ul>
+			<h2>Construction</h2>
+			<div class="img-container">
+				<img src="/images/computer_v1/complete_on_bench_december_2024.png" />
+				<img src="/images/computer_v1/display_in_progress.png" />
+			</div>
+			<p>Photo 1: Original specification complete by December 2024.</p>
+			<p>Photo 2: Working on the 32 x 32 display in early 2025.</p>
+			<p>
+				I started soldering the PCBs at the beginning of September 2024. I had to stop to fix many issues along the way, the biggest of which was noise caused by gates switching because I did not place decoupling capacitors across the chip supplies.
+				I also ran into some logic problems, but it mostly worked. By december I had completed the original design. I designed an LED display for it and started work on the display in early 2025.
+				The display was multiplexed and had a complicated hardware control loop for loading data into the LED driver shift registers. There was a race condition in the timing logic which was difficult to fix because touching some connections with a scope probe would make it work.
+				I learned to be more careful of timing in digital circuits and not to rely on a simulation working correctly.
+			</p>
 		</div>
 	</body>
 </html>
