@@ -52,6 +52,7 @@ function create_tag_element(tag, is_clickable=false) {
     return new_tag_elem;
 }
 
+// Data and Links for a Post
 function create_info_span_tag(post_metadata) {
     let info_span = document.createElement("div");
 	let sub_span = document.createElement("span");
@@ -64,7 +65,7 @@ function create_info_span_tag(post_metadata) {
 			for(let i = 0; i < links.length; i++) {
 				let ext_link = document.createElement("a");
 				ext_link.style.marginLeft = "1em";
-				ext_link.innerHTML = links[i];
+				ext_link.innerHTML = strip_protocol_from_link(links[i]);
 				ext_link.setAttribute("href", links[i]);
 				ext_link.setAttribute("target", "_blank");// https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-html
 				info_span.appendChild(ext_link);
@@ -72,4 +73,14 @@ function create_info_span_tag(post_metadata) {
 		}
 	}
     return info_span;
+}
+
+function strip_protocol_from_link(link_og) {
+    let removables = ["https://", "http://"];
+    for(let i = 0; i < removables.length; i++) {
+        if(link_og.startsWith(removables[i])) {
+            return link_og.slice(removables[i].length);
+        }
+    }
+    return link_og
 }
