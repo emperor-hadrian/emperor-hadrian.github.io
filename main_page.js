@@ -114,7 +114,7 @@ function remove_tag_from_filter(tag_name) {
 	list_posts();
 }
 
-const DEFAULT_TAGS = ["showcase"];
+const DEFAULT_TAGS = ["featured"];
 var posts_metadata_global = {};
 var tags_global = {}// tags should be: {tag-name: N occurances}
 var current_filter_tags_global = new Set([]);

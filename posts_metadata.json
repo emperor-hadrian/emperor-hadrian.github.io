@@ -15,7 +15,7 @@
 	},
 	"working_at_second_story.html": {
 		"name": "Working at Second Story Builders, LLC",
-		"tags": ["work", "showcase"],
+		"tags": ["work", "featured"],
 		"started": "2026-06-08",
 		"desc": "Over the summer of 2026 I worked in deconstructing buildings to save reusable material, which is mostly wood. The company also does new construction with those materials.",
 		"image": "/images/long_house_shed_window.png",
@@ -88,7 +88,7 @@
 	},
 	"computer_v1.html": {
 		"name": "Original 8 Bit Computer",
-		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
+		"tags": ["digital-logic", "project", "computer", "electronics", "featured"],
 		"started": "2024-03-11",
 		"image": "/images/computer_v1/computer_v1_completed_back.jpeg",
 		"ext_links": ["/posts/computer_v1_presentation_2025.pdf", "https://github.com/emperor-hadrian/stack_machine/blob/main/version_1/README_old_v1.md", "https://youtu.be/dbShJQgQNQc?si=lIAp6x72Wxj-_1Vb"],
@@ -96,7 +96,7 @@
 	},
 	"computer_v2.html": {
 		"name": "Computer V2",
-		"tags": ["digital-logic", "project", "computer", "electronics", "showcase"],
+		"tags": ["digital-logic", "project", "computer", "electronics", "featured"],
 		"started": "2026-01-23",
 		"desc": "A fully backwards-compatible version of my first computer, this design has much better performance and more features. I have not started building it yet because of the cost, however I have a working simulation.",
 		"ext_links": ["https://github.com/emperor-hadrian/stack_machine"],
@@ -104,7 +104,7 @@
 	},
 	"rusty_logic.html": {
 		"name": "Rusty Logic",
-		"tags": ["digital-logic", "project", "rust", "programming", "simulation", "showcase"],
+		"tags": ["digital-logic", "project", "rust", "programming", "simulation", "featured"],
 		"started": "2025-06-11",
 		"image": "/images/rusty_logic_example_scrot.png",
 		"ext_links": ["https://github.com/emperor-hadrian/rusty_logic_core"],
@@ -112,7 +112,7 @@
 	},
 	"amateur_radio.html": {
 		"name": "Amateur Radio - KC1YKK",
-		"tags": ["amateur-radio", "electronics", "showcase"],
+		"tags": ["amateur-radio", "electronics", "featured"],
 		"started": "2025-10-01",
 		"desc": "Description of my activities and projects so far related to Amateur Radio, also called Ham Radio",
 		"image": "/images/amateur_radio/rig_setup_outside_2026.jpeg"
