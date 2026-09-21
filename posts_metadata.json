@@ -35,8 +35,9 @@
 	},
 	"bike_packing.html": {
 		"name": "Bikepacking",
-		"tags": ["blog", "cycling"],
+		"tags": ["blog", "cycling", "featured"],
 		"started": "2026-08-17",
+		"desc": "Multi-day bike riding to go even further!",
 		"image": "/images/bike_stuff/first_bikepacking_belfast.jpeg"
 	},
 	"mt_washington.html": {
