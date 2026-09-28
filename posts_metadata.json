@@ -136,7 +136,7 @@
 		"name": "Sailboat Simulator",
 		"tags": ["programming", "simulation", "physics", "python", "project"],
 		"started": "2021",
-		"desc": "Started spring of 2021 while in 8th grade, I had to figure out alot of physics and networking concepts to make my first multiplayer game work smoothly",
+		"desc": "Started spring of 2021 while in 8th grade, I had to figure out a lot of physics and networking concepts to make my first multiplayer game work smoothly",
 		"ext_links": ["https://github.com/emperor-hadrian/sailboat_simulator_python"],
 		"image": "/images/sailboat_simulator_simple_scrot.png"
 	},
