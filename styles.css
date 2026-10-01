@@ -106,6 +106,7 @@ body {
 .container-88-31 img {
 	width: 88px;
 	height: 31px;
+	image-rendering: pixelated;
 }
 
 #post-features-container {
