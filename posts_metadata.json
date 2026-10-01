@@ -5,6 +5,12 @@
 		"started": "2026-08-01",
 		"hidden": true
 	},
+	"list_of_books.html": {
+		"name": "List of Books",
+		"tags": ["blog"],
+		"started": "2010?",
+		"desc": "Incomplete list of all books I remember reading"
+	},
 	"loading_screen_pranks.html": {
 		"name": "Loading Screen Pranks",
 		"tags": ["prank"],
