@@ -10,5 +10,11 @@ def s_to_abcd(s11,s12,s21,s22):# https://www.slideserve.com/melania/chapter-2-ne
 	d=(0.5/s21)*((1-s11)*(1+s22)+s12*s21)
 	return [a,b,c,d]
 
+def stability_factor(s11,s12,s21,s22):
+	det = s11*s22 - s12*s21
+	return (1 - abs(s11)**2 - abs(s22)**2 + abs(det)**2) / (2*abs(s12)*abs(s21))
+
 swr = lambda r: (1+abs(r))/(1-abs(r))
-rflct = lambda z,z0: (z-z0)/(z+z0)
+reflection = lambda z,z0: (z-z0)/(z+z0)
+mag_phase_deg = lambda m,d: m*e**(1j*d*pi/180)
+reflection_to_z = lambda r,z0: z0*(1+r)/(1-r)
