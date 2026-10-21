@@ -136,7 +136,8 @@
 		"tags": ["pyrotechnics", "project"],
 		"started": "2025-12-31",
 		"desc": "Long story of trying and failing to build a rocket engine that burns sparkler powder",
-		"image": "/images/rocket/rocket_v1_firing.jpg"
+		"image": "/images/rocket/rocket_v1_firing.jpg",
+		"hidden": true
 	},
 	"sailboat_simulator.html": {
 		"name": "Sailboat Simulator",
