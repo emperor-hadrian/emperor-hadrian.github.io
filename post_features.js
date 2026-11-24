@@ -11,6 +11,8 @@ function setup_page(page_matadata_raw) {
     document.getElementById("post-features-container").appendChild(tag_list);
     // Info span
     document.getElementById("post-features-container").appendChild(create_info_span_tag(page_matadata));
+    // Photos insert
+    insert_photos_with_captions()
 }
 
 function get_page_name() {
